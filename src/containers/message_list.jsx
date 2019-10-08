@@ -10,7 +10,10 @@ class MessageList extends Component {
   render() {
     return (
       <div className="message-list">
-        {this.props.messages.map((message) => <Message message={message} key={message.created_at} />)}
+        <div>
+          <h3><strong>Channel</strong></h3>
+          {this.props.messages.map((message) => <Message message={message} key={message.created_at} />)}
+        </div>
       </div>
     );
   }

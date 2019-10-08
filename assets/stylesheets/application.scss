@@ -21,6 +21,7 @@ body {
 .channel-list {
   display: flex;
   width: 30%;
+  padding: 20px;
   background-color: #F4F4F4;
   height: 100vh;
 }
@@ -29,6 +30,20 @@ body {
 .message-list {
   display: flex;
   width: 60%;
+  padding: 20px;
   background-color: #FF9;
   height: 100vh;
+}
+
+.message {
+  width: 100%;
+}
+
+.time {
+  font-size: 10px;
+  color: #5F5F5F;
+}
+
+.author {
+  color: red;
 }
