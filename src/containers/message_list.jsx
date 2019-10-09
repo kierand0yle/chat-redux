@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Message from '../components/message';
+import MessageForm from './message_form';
+
 
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -23,6 +25,7 @@ class MessageList extends Component {
             })
           }
         </div>
+        <MessageForm />
       </div>
     );
   }
