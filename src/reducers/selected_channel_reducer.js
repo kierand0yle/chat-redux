@@ -5,7 +5,7 @@ const selectedChannelReducer = (state, action) => {
   }
   // TODO: handle some actions
   switch (action.type) {
-    case 'SELECT_CHANNEL':
+    case 'CHANNEL_SELECTED':
       return action.payload;
     default:
       return state;
